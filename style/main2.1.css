@@ -32,7 +32,7 @@ header .logo{
 }
 
 main{
-    height: 91vh;
+    height: 87vh;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url("../img/img1-brasil.jpg") top left no-repeat fixed;
     background-size: cover;
     display: flex;
@@ -49,7 +49,7 @@ main{
 main p{
     margin-top: 10px;
     margin-left: 10px;
-    margin-right: 20%;
+    margin-right: 30%;
     text-align: justify;
     font-weight: 450;
 }
@@ -63,3 +63,24 @@ main a{
 main a:hover{
     background-color: rgb(51, 51, 252);
 }
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer > p > a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
+
+
